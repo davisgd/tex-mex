@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import './styles.css';
 
-
 import App from './App';
 import TexMexAddress from './TexMexMapper/TexMexAddress';
 import TexMexMenu from './TexMexMapper/TexMexMenu';

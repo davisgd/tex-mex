@@ -6,6 +6,7 @@ import './styles.css';
 
 import App from './App';
 import TexMexAddress from './TexMexMapper/TexMexAddress';
+import TexMexMenu from './TexMexMapper/TexMexMenu';
 import registerServiceWorker from './registerServiceWorker';
 
 // import 'boostrap/dist/css/bootstrap.css';
@@ -22,9 +23,11 @@ const Home = () => {
 ReactDOM.render((
   <Router>
     <div className="nav-bar-container">
-      <Route exact path="/" component= { Home } />
-      <Route path="/TexMexMapper" component={ TexMexAddress } />
+      // <Route exact path="/" component= { Home } />
+      // <Route path="/TexMexMapper" component={ TexMexAddress } />
       <App />
+      <TexMexAddress />
+      <TexMexMenu />
     </div>
   </Router>
 ), document.getElementById('root'));

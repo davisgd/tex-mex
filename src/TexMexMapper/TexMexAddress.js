@@ -18,8 +18,6 @@ const address = (props) => {
 }
 
 const TexMexAddress = (props) => {
-
-  const texMexAddressItems = TEX_DATA.address.map(function(address, index){
     return(
       <div className="tex-mex-address">
         <h3> { address.street } </h3>
@@ -27,7 +25,6 @@ const TexMexAddress = (props) => {
         <h3> { address.city }, { address.state }  {address.zip} </h3>
       </div>
     )
-  })
 }
 
 export default TexMexAddress;
